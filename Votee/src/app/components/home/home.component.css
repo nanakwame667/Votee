@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    
 }
 .section_one{
     display: flex;
@@ -44,14 +45,47 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    margin-bottom: 8rem;
 }
 .section_two h1{
     font-size: 2.5rem;
+    margin-bottom: 2rem;
     color: #2F5D62;
 }
 .section_two img{
-    width: 70%;
+    width: 68%;
+    margin-bottom: 2rem;
+}
+.section_two p{
+    font-size: 1.5rem;
+    color: #5E5C5C;
+    width: 65%;
+    margin-bottom: 2rem;
+}
+
+/* end of section two */
+
+.section_three{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.section_three img{
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    margin-bottom: 3rem;
+}
+
+.section_three p{
+    font-size: 1.6rem;
+    color: #5E5C5C;
+    width: 75%;
+    margin-bottom: 1rem;
 }
