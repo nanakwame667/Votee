@@ -35,3 +35,30 @@
 .header img{
     width: 30%;
 }
+
+@media screen and (max-width:600px)
+{
+
+}
+
+@media screen and (max-width:900px) and (min-width:600px)
+{
+    .header-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:900px)
+{
+    .header-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 55%;
+    }
+}

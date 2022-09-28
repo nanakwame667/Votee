@@ -8,7 +8,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +16,7 @@ import { LoginComponent } from './components/login/login.component';
     ButtonComponent,
     HomeComponent,
     FooterComponent,
-    LoginComponent
+ 
   ],
   imports: [
     BrowserModule,
