@@ -1,0 +1,2 @@
+# Votee
+A voting platform
