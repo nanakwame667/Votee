@@ -1,0 +1,36 @@
+.Home{
+    display: flex;
+    width: 100%;
+}
+.section_one{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_one_details{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin-bottom: 8rem;
+
+}
+.section_one_details h1{
+    font-size: 4rem;
+    color: #2F5D62;
+}
+.section_one_details p{
+    font-size: 1.1rem;
+    color: #5E5C5C;
+}
+.section_one_img{
+    width: 50%;
+}
+.section_one_img img{
+    width: 110%;
+}
