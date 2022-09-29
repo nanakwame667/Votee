@@ -7,6 +7,9 @@
     margin-top: 1.5rem;
 }
 
+.menu-btn{
+    display: none;
+}
 .header-links{
     display: flex;
     flex-direction: row;
@@ -139,7 +142,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 75%;
+        width: 100%;
     }
     .menu-btn{
         display: none;
